@@ -1,4 +1,3 @@
-
 import { useState, useMemo } from "react"
 import { BuildCard } from "@/components/BuildCard"
 import { BuildFilter } from "@/components/BuildFilter"
@@ -149,7 +148,7 @@ export default function Dashboard() {
       <BuildFilter
         selectedStatus={selectedStatus}
         onStatusFilter={setSelectedStatus}
-        buildCounts={buildCounds}
+        buildCounts={buildCounts}
       />
 
       {/* Build-Karten */}
